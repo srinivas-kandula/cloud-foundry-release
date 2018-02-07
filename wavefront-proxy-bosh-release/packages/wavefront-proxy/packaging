@@ -1,0 +1,8 @@
+# abort script on any command that exits with a non zero value
+#set -e
+set -x
+
+echo "Copy proxy package..."
+cp -v wavefront-proxy/wavefront-proxy_4.25-1_amd64.deb ${BOSH_INSTALL_TARGET}/ 
+#echo "Installing proxy.."
+#sudo dpkg -i /var/vcap/packages/wavefront-proxy/wavefront-proxy_4.25-1_amd64.deb

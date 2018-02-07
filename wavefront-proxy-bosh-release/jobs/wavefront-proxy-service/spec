@@ -1,0 +1,19 @@
+---
+name: wavefront-proxy-service
+
+templates:
+  proxy_ctl.erb: bin/proxy_ctl
+  wavefront.conf.erb: conf/wavefront.conf
+
+packages:
+  - wavefront-proxy
+
+properties:
+  wavefront.host:
+    description: Wavefront URL
+    default: https://nimba.wavefront.com/
+  wavefront.token:
+    description: Token
+    default: a5818976-d96d-49ee-b5ee-d10549b14c81
+ 
+

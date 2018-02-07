@@ -1,0 +1,6 @@
+---
+name: wavefront-proxy 
+
+files:
+  - wavefront-proxy/wavefront-proxy_4.25-1_amd64.deb
+

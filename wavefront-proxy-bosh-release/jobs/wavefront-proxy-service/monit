@@ -1,0 +1,5 @@
+check process wavefront-proxy-service
+  with pidfile /var/run/wavefront-proxy.pid
+  start program "/var/vcap/jobs/wavefront-proxy-service/bin/proxy_ctl start" with timeout 60 seconds
+  stop program "/var/vcap/jobs/wavefront-proxy-service/bin/proxy_ctl stop" with timeout 60 seconds
+
