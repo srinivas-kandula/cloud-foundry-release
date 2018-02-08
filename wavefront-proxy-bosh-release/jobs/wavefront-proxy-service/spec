@@ -14,6 +14,6 @@ properties:
     default: https://nimba.wavefront.com/
   wavefront.token:
     description: Token
-    default: a5818976-d96d-49ee-b5ee-d10549b14c81
+    default: 
  
 
